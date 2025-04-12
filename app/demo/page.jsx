@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Progress } from "@/components/ui/progress"
 import { Separator } from "@/components/ui/separator"
 // Fix the import to handle both named and default export
-import useMobile from "@/hooks/use-mobile"
+import {useMobile} from "@/hooks/use-mobile"
 
 // Define the conversation flow
 const conversationFlow = [
